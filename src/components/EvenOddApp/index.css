@@ -1,0 +1,62 @@
+/* Write your CSS here */
+
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    align-items: center;
+  }
+}
+.count-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+@media screen and (min-width: 768px) {
+  .count-container {
+    width: 75%;
+    min-height: 65vh;
+  }
+}
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+.count-type {
+  color: #334155;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.button {
+  background-color: #ffffff;
+  border: none;
+  color: #1e293b;
+  font-family: 'Roboto';
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 28px;
+  padding-left: 28px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+.statement {
+  color: #334155;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
